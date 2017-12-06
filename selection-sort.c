@@ -21,9 +21,9 @@ void sort(int array[], int size)
         }
 
         // swap to put min in correct position
-        int temp = array[min];  // on 3rd inner loop of 2nd outer loop, 8 assigned to tmp
-        array[min] = array[i];  // on 3rd inner loop of 2nd outer loop, 8 replaced with 15
-        array[i] = temp;        // on 3rd inner loop of 2nd outer loop, 15 replaced with 8
+        int temp = array[min];  
+        array[min] = array[i];  
+        array[i] = temp;       
     }
 
 }
